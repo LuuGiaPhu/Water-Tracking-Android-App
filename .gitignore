@@ -61,6 +61,10 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
+# Files containing API keys
+watch/wear/src/main/java/com/example/myapplication/WearMainActivity.java
+Cuoi ky/app/src/main/java/com/example/myapplication/MainActivity.java
+
 # Freeline
 freeline.py
 freeline/
