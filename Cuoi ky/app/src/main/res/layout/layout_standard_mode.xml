@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/standard"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/based_on_your_sleep_and_meal_schedule"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Reminder Rows -->
+    <!-- After Wake-up -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderWakeUp" />
+
+    <!-- Before Breakfast -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderBeforeBreakfast" />
+
+    <!-- After Breakfast -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderAfterBreakfast" />
+
+    <!-- Before Lunch -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderBeforeLunch" />
+
+    <!-- After Lunch -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderAfterLunch" />
+
+    <!-- Before Dinner -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderBeforeDinner" />
+
+    <!-- After Dinner -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderAfterDinner" />
+
+    <!-- Before Sleep -->
+    <include layout="@layout/item_standard_reminder" android:id="@+id/reminderBeforeSleep" />
+
+    <!-- Hint text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/can_t_receive_reminders"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic" />
+</LinearLayout>

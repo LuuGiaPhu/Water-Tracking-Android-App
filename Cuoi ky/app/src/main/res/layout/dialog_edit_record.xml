@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvRecordAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected: 0 ml"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarRecordAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="2000" />
+</LinearLayout>

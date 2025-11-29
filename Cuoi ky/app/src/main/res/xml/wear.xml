@@ -1,0 +1,3 @@
+<!-- res/xml/wear.xml -->
+    <capability xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="verify_connection" />

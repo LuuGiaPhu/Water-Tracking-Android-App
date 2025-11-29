@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <Spinner
+                    android:id="@+id/spReportType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/report_types" />
+
+                <TextView
+                    android:id="@+id/tvDateInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select date and time"
+                    android:padding="8dp"
+                    android:background="?android:attr/editTextBackground"
+                    android:gravity="center_vertical" />
+
+                <Spinner
+                    android:id="@+id/spFileFormat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/file_formats" />
+            </LinearLayout>

@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Water Tracking</string>
+    <string name="image_description">Sample image</string>
+    <string name="title_text">Avoid These Water Drinking Mistakes</string>
+    <string name="time_1830">18:30</string>
+    <!-- Add other missing string resources as well -->
+    <string name="time_0630">06:30</string>
+    <string name="time_0800">08:00</string>
+    <string name="time_0930">09:30</string>
+    <string name="time_1100">11:00</string>
+    <string name="time_1230">12:30</string>
+    <string name="time_1400">14:00</string>
+    <string name="time_1530">15:30</string>
+    <string name="time_1700">17:00</string>
+    <string name="time_2000">20:00</string>
+    <string name="time_2130">21:30</string>
+    <string name="time_2300">23:00</string>
+    <string name="add_time">+</string>
+    <string name="cant_receive_reminders">Can\'t receive reminders?</string>
+    <string name="custom_title">Custom</string>
+    <string name="custom_subtitle">Customize all reminders by yourself</string>
+    <string name="google_client_id">778102042166-h92o7abcg67875qdoghluejkosf0f895.apps.googleusercontent.com</string>
+    <string name="gender_prompt">Select Gender</string>
+    <string name="height_prompt">Select Height</string>
+    <string name="water_100">- 100%</string>
+    <string name="water_intake">0 ml</string>
+    <string name="next_reminder">Next Reminder: 09:00</string>
+    <string name="countdown">Countdown:</string>
+    <string name="remaining_water">Remaining: 0 ml</string>
+    <string name="water_50">- 50%</string>
+    <string name="water_0">- 0%</string>
+    <string name="add_water">+ DRINK</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_amount_hint">Enter amount in ml</string>
+    <string name="label_hint">Label</string>
+    <string name="time_hint">Time (HH:MM)</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="update_button_text">Update</string>
+    <string name="water_intake_hint">Enter water intake (ml)</string>
+    <string name="set_button_text">Set</string>
+    <string name="tab_day">DAY</string>
+    <string name="tab_week">WEEK</string>
+    <string name="tab_month">MONTH</string>
+    <string name="date_range">2025-03-31</string>
+    <string name="total">Total\n0 ml</string>
+    <string name="goal">Goal\n2387 ml</string>
+    <string name="records">Records</string>
+    <string name="insights_title">INSIGHTS</string>
+    <string name="water_drinking_section">Water Drinking</string>
+    <string name="beauty_skincare_section">Beauty &amp; Skincare</string>
+    <string name="label_text">Label</string>
+    <string name="time_placeholder">00:00</string>
+    <string name="interval_title">Interval</string>
+    <string name="interval_description">Remind you at fixed intervals</string>
+    <string name="interval_label">Interval</string>
+    <string name="interval_value">30min</string>
+    <string name="bedtime_label">Bedtime</string>
+    <string name="bedtime_value">23:00</string>
+    <string name="to_label">to</string>
+    <string name="wakeup_value">08:00</string>
+    <string name="reminder_note">We &amp;ll remind you every 30min during your non-rest time</string>
+    <string name="standard">Standard</string>
+    <string name="based_on_schedule">Based on your sleep and meal schedule</string>
+    <string name="sign_in">Sign in</string>
+    <string name="total_drinking">Total Drinking</string>
+    <string name="total_achieved">Total Achieved</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="reminders">🔔 Reminders</string>
+    <string name="stop_when_goal_achieved">🏆 Stop when goal achieved</string>
+    <string name="smart_skip">🔁 Smart Skip</string>
+    <string name="sounds_vibration">🔊 Sounds &amp; Vibration</string>
+    <string name="drink">Drink</string>
+    <string name="daily_goal">💧 Daily Goal</string>
+    <string name="gender_height_weight">👤 Gender &amp; Height &amp; Weight</string>
+    <string name="synchronize_data">🔄 Synchronize Data</string>
+    <string name="language">🔤 Language</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="reminder_title">Reminder</string>
+    <string name="back_button_description">Back</string>
+    <string name="standard_mode">Standard\nMode</string>
+    <string name="interval_mode">Interval\nMode</string>
+    <string name="custom_mode">Custom\nMode</string>
+    <string name="reminder_weekend_mode">Reminder Weekend Mode</string>
+    <string name="image_desc">Image description</string>
+    <string name="back">Back</string>
+    <string name="badges">Badges</string>
+    <string name="sheryl_higgins">Sheryl Higgins</string>
+    <string name="view_achievements">View achievements</string>
+    <string name="fitness">Fitness</string>
+    <string name="colour">🎨 Colour</string>
+    <string name="general">⚙ General</string>
+    <string name="game">Game</string>
+    <string name="game1">🎮 Game</string>
+    <string name="social">Social</string>
+    <string name="share">🌏 Share</string>
+    <string name="dark_mode">🌙 Dark Mode</string>
+    <string name="connect_smart_bottle">⛓️‍💥 Connect Smart Bottle</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="remaining">"Remaining: "</string>
+    <string name="countdown_02dh_02dm_02ds">Countdown: %02dh %02dm %02ds</string>
+    <string name="next_reminder_main">"Next Reminder: "</string>
+    <string name="gender">"Gender: "</string>
+    <string name="height">", Height: "</string>
+    <string name="m_weight">" m, Weight: "</string>
+    <string name="interval">Interval</string>
+    <string name="remind_you_at_fixed_intervals">Remind you at fixed intervals</string>
+    <string name="bedtime">Bedtime</string>
+    <string name="we_ll_remind_you_every_min_during_your_nnon_rest_time">We\'ll remind you every min during your nnon-rest time</string>
+    <string name="can_t_receive_reminders">Can\'t receive reminders?</string>
+    <string name="based_on_your_sleep_and_meal_schedule">Based on your sleep and meal schedule</string>
+    <string name="ranking">Ranking</string>
+    <string name="total_history">Total\n</string>
+    <string name="goal_history">Goal\n</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="report_types">
+        <item>Day/Month/Year</item>
+        <item>Week/Month/Year</item>
+        <item>Month/Year</item>
+    </string-array>
+    <string-array name="file_formats">
+        <item>Excel</item>
+        <item>PDF</item>
+    </string-array>
+</resources>

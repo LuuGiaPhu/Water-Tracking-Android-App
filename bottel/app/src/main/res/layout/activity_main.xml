@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnScan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="🔍 Scan Devices" />
+
+            <ListView
+                android:id="@+id/listViewDevices"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:dividerHeight="1dp" />
+
+            <Button
+                android:id="@+id/btnDrink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="🥤 Drink " />
+
+            <TextView
+                android:id="@+id/tvSeekBarValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Selected Water: 250 ml"
+                android:textSize="16sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarWaterAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:max="1000"
+                android:progress="250" />
+
+            <TextView
+                android:id="@+id/tvWaterAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Water: 0 ml"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvConnectionStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Status: Not Connected"
+                android:textSize="18sp" />
+        </LinearLayout>

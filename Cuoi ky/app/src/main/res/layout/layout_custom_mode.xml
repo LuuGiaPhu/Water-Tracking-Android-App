@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/custom_title"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_subtitle"
+            android:textColor="@color/high_contrast_gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.082" />
+
+        <GridLayout
+            android:id="@+id/customTimeGrid"
+            android:layout_width="355dp"
+            android:layout_height="236dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="4"
+            android:rowCount="4"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.431">
+
+            <!-- Buttons example (static for now) -->
+            <Button
+                style="@style/TimeChip_Disabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_0630"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_0800"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_0930"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1100"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1230"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1400"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1530"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1700"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_1830"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_2000"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Enabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_2130"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                style="@style/TimeChip_Disabled"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/time_2300"
+                android:textColor="@android:color/black"
+                app:backgroundTint="@null" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnAddTime"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/combined_drawable"
+            android:drawablePadding="0dp"
+            android:text="@string/add_time"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/customTimeGrid" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/cant_receive_reminders"
+            android:textColor="@color/high_contrast_gray"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddTime" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Subtitle -->
+
+    <!-- Grid of time buttons -->
+
+    <!-- Add (+) button -->
+
+    <!-- Can't receive reminder -->
+
+</LinearLayout>

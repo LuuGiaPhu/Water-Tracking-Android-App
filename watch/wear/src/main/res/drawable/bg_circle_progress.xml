@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#EEEEEE" />
+        </shape>
+    </item>
+
+    <!-- Foreground Arc (water progress arc) -->
+    <item android:right="5dp" android:left="5dp" android:top="5dp" android:bottom="5dp">
+        <rotate
+            android:fromDegrees="-90"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="8"
+                android:useLevel="true">
+                <solid android:color="#03A9F4" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

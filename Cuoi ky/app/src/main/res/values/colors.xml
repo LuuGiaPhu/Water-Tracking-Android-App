@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#BBDEFB</color>
+    <color name="light_blue_dark">#90CAF9</color> <!-- Updated to a slightly darker shade -->
+    <color name="dark_blue">#0D47A1</color>
+    <color name="darker_blue">#003366</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="high_contrast_gray">#4A4A4A</color>
+    <color name="default_background">#2196F3</color> <!-- Replace #FFFFFF with your desired color -->
+    <color name="sky_blue">#2196F3</color>
+    <color name="teal">#5118B4</color>
+</resources>

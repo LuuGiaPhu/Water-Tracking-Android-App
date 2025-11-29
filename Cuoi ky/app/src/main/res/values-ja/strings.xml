@@ -1,0 +1,128 @@
+<resources>
+            <string name="app_name">水追跡</string>
+            <string name="image_description">サンプル画像</string>
+            <string name="title_text">これらの水飲みの間違いを避けましょう</string>
+            <string name="time_1830">18:30</string>
+            <string name="time_0630">06:30</string>
+            <string name="time_0800">08:00</string>
+            <string name="time_0930">09:30</string>
+            <string name="time_1100">11:00</string>
+            <string name="time_1230">12:30</string>
+            <string name="time_1400">14:00</string>
+            <string name="time_1530">15:30</string>
+            <string name="time_1700">17:00</string>
+            <string name="time_2000">20:00</string>
+            <string name="time_2130">21:30</string>
+            <string name="time_2300">23:00</string>
+            <string name="add_time">+</string>
+            <string name="cant_receive_reminders">リマインダーを受信できませんか？</string>
+            <string name="custom_title">カスタム</string>
+            <string name="custom_subtitle">すべてのリマインダーを自分でカスタマイズ</string>
+            <string name="google_client_id">778102042166-h92o7abcg67875qdoghluejkosf0f895.apps.googleusercontent.com</string>
+            <string name="gender_prompt">性別を選択</string>
+            <string name="height_prompt">身長を選択</string>
+            <string name="water_100">- 100%</string>
+            <string name="water_intake">0 ml</string>
+            <string name="next_reminder">次のリマインダー: 09:00</string>
+            <string name="countdown">カウントダウン:</string>
+            <string name="remaining_water">残り: 0 ml</string>
+            <string name="water_50">- 50%</string>
+            <string name="water_0">- 0%</string>
+            <string name="add_water">+ 飲む</string>
+            <string name="sign_in_title">サインイン</string>
+            <string name="sign_in_with_google">Googleでサインイン</string>
+            <string name="enter_date">日付を入力</string>
+            <string name="enter_amount_hint">量をmlで入力</string>
+            <string name="label_hint">ラベル</string>
+            <string name="time_hint">時間 (HH:MM)</string>
+            <string name="weight_hint">体重 (kg)</string>
+            <string name="update_button_text">更新</string>
+            <string name="water_intake_hint">水分摂取量を入力 (ml)</string>
+            <string name="set_button_text">設定</string>
+            <string name="tab_day">日</string>
+            <string name="tab_week">週</string>
+            <string name="tab_month">月</string>
+            <string name="date_range">2025-03-31</string>
+            <string name="total">合計\n0 ml</string>
+            <string name="goal">目標\n2387 ml</string>
+            <string name="records">記録</string>
+            <string name="insights_title">インサイト</string>
+            <string name="water_drinking_section">水分摂取</string>
+            <string name="beauty_skincare_section">美容とスキンケア</string>
+            <string name="label_text">ラベル</string>
+            <string name="time_placeholder">00:00</string>
+            <string name="interval_title">間隔</string>
+            <string name="interval_description">一定間隔でリマインダー</string>
+            <string name="interval_label">間隔</string>
+            <string name="interval_value">30分</string>
+            <string name="bedtime_label">就寝時間</string>
+            <string name="bedtime_value">23:00</string>
+            <string name="to_label">から</string>
+            <string name="wakeup_value">08:00</string>
+            <string name="reminder_note">休憩時間外に30分ごとにリマインダーします</string>
+            <string name="standard">標準</string>
+            <string name="based_on_schedule">睡眠と食事のスケジュールに基づく</string>
+            <string name="sign_in">サインイン</string>
+            <string name="total_drinking">総摂取量</string>
+            <string name="total_achieved">達成日数</string>
+            <string name="reminder_settings">リマインダー設定</string>
+            <string name="reminders">🔔 リマインダー</string>
+            <string name="stop_when_goal_achieved">🏆 目標達成時に停止</string>
+            <string name="smart_skip">🔁 スマートスキップ</string>
+            <string name="sounds_vibration">🔊 サウンドと振動</string>
+            <string name="drink">飲む</string>
+            <string name="daily_goal">💧 毎日の目標</string>
+            <string name="gender_height_weight">👤 性別・身長・体重</string>
+            <string name="synchronize_data">🔄 データ同期</string>
+            <string name="language">🔤 言語</string>
+            <string name="sign_out">サインアウト</string>
+            <string name="reminder_title">リマインダー</string>
+            <string name="back_button_description">戻る</string>
+            <string name="standard_mode">標準\nモード</string>
+            <string name="interval_mode">間隔\nモード</string>
+            <string name="custom_mode">カスタム\nモード</string>
+            <string name="reminder_weekend_mode">週末リマインダーモード</string>
+            <string name="image_desc">画像の説明</string>
+            <string name="back">戻る</string>
+            <string name="badges">バッジ</string>
+            <string name="sheryl_higgins">シェリル・ヒギンズ</string>
+            <string name="view_achievements">実績を見る</string>
+            <string name="fitness">フィットネス</string>
+            <string name="colour">🎨 色</string>
+            <string name="general">⚙ 一般</string>
+            <string name="game">ゲーム</string>
+            <string name="game1">🎮 ゲーム</string>
+            <string name="social">ソーシャル</string>
+            <string name="share">🌏 共有</string>
+            <string name="dark_mode">🌙 ダークモード</string>
+            <string name="connect_smart_bottle">⛓️‍💥 スマートボトルを接続</string>
+            <string name="not_connected">未接続</string>
+            <string name="remaining">"残り: "</string>
+            <string name="countdown_02dh_02dm_02ds">カウントダウン: %02dh %02dm %02ds</string>
+            <string name="next_reminder_main">"次のリマインダー: "</string>
+            <string name="gender">"性別: "</string>
+            <string name="height">", 身長: "</string>
+            <string name="m_weight">" m, 体重: "</string>
+            <string name="interval">間隔</string>
+            <string name="remind_you_at_fixed_intervals">一定間隔でリマインドします</string>
+            <string name="bedtime">就寝時間</string>
+            <string name="we_ll_remind_you_every_min_during_your_nnon_rest_time">休憩時間以外は毎分リマインドします</string>
+            <string name="can_t_receive_reminders">リマインダーを受信できませんか？</string>
+            <string name="based_on_your_sleep_and_meal_schedule">睡眠と食事のスケジュールに基づいています</string>
+            <string name="ranking">ランキング</string>
+            <string name="total_history">合計\n</string>
+            <string name="goal_history">目標\n</string>
+            <string-array name="gender_array">
+                <item>男性</item>
+                <item>女性</item>
+            </string-array>
+            <string-array name="report_types">
+                <item>日/月/年</item>
+                <item>週/月/年</item>
+                <item>月/年</item>
+            </string-array>
+            <string-array name="file_formats">
+                <item>エクセル</item>
+                <item>PDF</item>
+            </string-array>
+        </resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:padding="24dp"
+    android:paddingTop="25dp">
+
+    <!-- Back button -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        android:paddingTop="25dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="@string/badges"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Avatar with glowing ring -->
+    <com.example.myapplication.CircularImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_glow_avatar"
+        android:padding="4dp"
+        android:paddingTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample"
+        app:borderColor="@android:color/holo_blue_light"
+        app:borderWidth="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBack" />
+
+    <!-- User name -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingTop="25dp"
+        android:text="@string/sheryl_higgins"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgAvatar" />
+
+    <!-- User handle -->
+    <TextView
+        android:id="@+id/tvHandle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:paddingTop="25dp"
+        android:text="\@sher234"
+        android:textColor="#99FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUsername" />
+
+    <!-- Points -->
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingTop="25dp"
+        android:text="8122 pts ▲"
+        android:textColor="@color/light_blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHandle" />
+
+    <!-- Badge grid -->
+    <GridLayout
+        android:id="@+id/badgeGrid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:paddingTop="25dp"
+        android:rowCount="4"
+        android:rowOrderPreserved="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPoints">
+
+        <!-- Each badge icon -->
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_badge1" />
+
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_badge_crown" />
+
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_rocket" />
+
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_sword" />
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_watermelon" />
+        <com.example.myapplication.CircularImageView
+            android:id="@+id/imgBadge6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_circle_blue"
+            android:paddingTop="25dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_medal" />
+
+        <!-- Add more ImageViews similarly for badges -->
+        <!-- total: 12 badges -->
+        <!-- Add inactive badges with reduced alpha if needed -->
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

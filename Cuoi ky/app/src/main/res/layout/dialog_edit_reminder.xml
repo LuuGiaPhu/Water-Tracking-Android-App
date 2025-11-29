@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/editLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Label" />
+
+            <TextView
+                android:id="@+id/editTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time (HH:MM)"
+                android:padding="8dp"
+                android:background="?android:attr/editTextBackground"
+                android:gravity="center_vertical" />
+        </LinearLayout>

@@ -1,0 +1,125 @@
+<resources>
+            <string name="app_name">Theo dõi nước</string>
+            <string name="image_description">Hình ảnh mẫu</string>
+            <string name="title_text">Tránh những sai lầm khi uống nước</string>
+            <string name="time_1830">18:30</string>
+            <string name="time_0630">06:30</string>
+            <string name="time_0800">08:00</string>
+            <string name="time_0930">09:30</string>
+            <string name="time_1100">11:00</string>
+            <string name="time_1230">12:30</string>
+            <string name="time_1400">14:00</string>
+            <string name="time_1530">15:30</string>
+            <string name="time_1700">17:00</string>
+            <string name="time_2000">20:00</string>
+            <string name="time_2130">21:30</string>
+            <string name="time_2300">23:00</string>
+            <string name="add_time">+</string>
+            <string name="cant_receive_reminders">Không nhận được nhắc nhở?</string>
+            <string name="custom_title">Tùy chỉnh</string>
+            <string name="custom_subtitle">Tùy chỉnh tất cả nhắc nhở theo ý bạn</string>
+            <string name="gender_prompt">Chọn giới tính</string>
+            <string name="height_prompt">Chọn chiều cao</string>
+            <string name="water_100">- 100%</string>
+            <string name="water_intake">0 ml</string>
+            <string name="next_reminder">Nhắc nhở tiếp theo: 09:00</string>
+            <string name="countdown">Đếm ngược:</string>
+            <string name="remaining_water">Còn lại: 0 ml</string>
+            <string name="add_water">+ UỐNG</string>
+            <string name="sign_in_title">Đăng nhập</string>
+            <string name="sign_in_with_google">Đăng nhập bằng Google</string>
+            <string name="enter_date">Nhập ngày</string>
+            <string name="enter_amount_hint">Nhập lượng nước (ml)</string>
+            <string name="label_hint">Nhãn</string>
+            <string name="time_hint">Thời gian (HH:MM)</string>
+            <string name="weight_hint">Cân nặng (kg)</string>
+            <string name="update_button_text">Cập nhật</string>
+            <string name="water_intake_hint">Nhập lượng nước uống (ml)</string>
+            <string name="set_button_text">Đặt</string>
+            <string name="tab_day">NGÀY</string>
+            <string name="tab_week">TUẦN</string>
+            <string name="tab_month">THÁNG</string>
+            <string name="date_range">2025-03-31</string>
+            <string name="total">Tổng\n0 ml</string>
+            <string name="goal">Mục tiêu\n2387 ml</string>
+            <string name="records">Hồ sơ</string>
+            <string name="insights_title">THÔNG TIN</string>
+            <string name="water_drinking_section">Uống nước</string>
+            <string name="beauty_skincare_section">Làm đẹp &amp; Chăm sóc da</string>
+            <string name="label_text">Nhãn</string>
+            <string name="time_placeholder">00:00</string>
+            <string name="interval_title">Khoảng thời gian</string>
+            <string name="interval_description">Nhắc nhở bạn theo khoảng thời gian cố định</string>
+            <string name="interval_label">Khoảng thời gian</string>
+            <string name="interval_value">30 phút</string>
+            <string name="bedtime_label">Giờ đi ngủ</string>
+            <string name="bedtime_value">23:00</string>
+            <string name="to_label">đến</string>
+            <string name="wakeup_value">08:00</string>
+            <string name="reminder_note">Chúng tôi sẽ nhắc nhở bạn mỗi 30 phút trong thời gian không nghỉ</string>
+            <string name="standard">Tiêu chuẩn</string>
+            <string name="based_on_schedule">Dựa trên lịch ngủ và ăn uống của bạn</string>
+            <string name="sign_in">Đăng nhập</string>
+            <string name="total_drinking">Tổng lượng uống</string>
+            <string name="total_achieved">Tổng số ngày đạt được</string>
+            <string name="reminder_settings">Cài đặt nhắc nhở</string>
+            <string name="reminders">🔔 Nhắc nhở</string>
+            <string name="stop_when_goal_achieved">🏆 Dừng khi đạt mục tiêu</string>
+            <string name="smart_skip">🔁 Bỏ qua thông minh</string>
+            <string name="sounds_vibration">🔊 Âm thanh &amp; Rung</string>
+            <string name="drink">Uống</string>
+            <string name="daily_goal">💧 Mục tiêu hàng ngày</string>
+            <string name="gender_height_weight">👤 Giới tính &amp; Chiều cao &amp; Cân nặng</string>
+            <string name="synchronize_data">🔄 Đồng bộ dữ liệu</string>
+            <string name="language">🔤 Ngôn ngữ</string>
+            <string name="sign_out">Đăng xuất</string>
+            <string name="reminder_title">Nhắc nhở</string>
+            <string name="back_button_description">Quay lại</string>
+            <string name="standard_mode">Chế độ\nTiêu chuẩn</string>
+            <string name="interval_mode">Chế độ\nKhoảng thời gian</string>
+            <string name="custom_mode">Chế độ\nTùy chỉnh</string>
+            <string name="reminder_weekend_mode">Chế độ nhắc nhở cuối tuần</string>
+            <string name="image_desc">Mô tả hình ảnh</string>
+            <string name="back">Quay lại</string>
+            <string name="badges">Huy hiệu</string>
+            <string name="sheryl_higgins">Sheryl Higgins</string>
+            <string name="view_achievements">Xem thành tích</string>
+            <string name="fitness">Thể dục</string>
+            <string name="colour">🎨 Màu sắc</string>
+            <string name="general">⚙ Chung</string>
+            <string name="game">Trò chơi</string>
+            <string name="game1">🎮 Trò chơi</string>
+            <string name="social">Xã hội</string>
+            <string name="share">🌏 Chia sẻ</string>
+            <string name="dark_mode">🌙 Chế độ tối</string>
+            <string name="connect_smart_bottle">⛓️‍💥 Kết nối bình thông minh</string>
+            <string name="not_connected">Chưa kết nối</string>
+    <string name="remaining">"Còn lại: "</string>
+    <string name="countdown_02dh_02dm_02ds">Đếm ngược: %02dh %02dm %02ds</string>
+    <string name="next_reminder_main">"Nhắc nhở tiếp theo: "</string>
+    <string name="gender">"Giới tính: "</string>
+    <string name="height">", Chiều cao: "</string>
+    <string name="m_weight">" m, Cân nặng: "</string>
+    <string name="interval">Khoảng thời gian</string>
+    <string name="remind_you_at_fixed_intervals">Nhắc nhở bạn theo khoảng thời gian cố định</string>
+    <string name="bedtime">Giờ đi ngủ</string>
+    <string name="we_ll_remind_you_every_min_during_your_nnon_rest_time">Chúng tôi sẽ nhắc bạn mỗi phút trong thời gian không nghỉ</string>
+    <string name="can_t_receive_reminders">Không thể nhận nhắc nhở?</string>
+    <string name="based_on_your_sleep_and_meal_schedule">Dựa trên lịch ngủ và ăn của bạn</string>
+    <string name="ranking">Xếp hạng</string>
+    <string name="total_history">Tổng\n</string>
+    <string name="goal_history">Mục tiêu\n</string>
+            <string-array name="gender_array">
+                <item>Nam</item>
+                <item>Nữ</item>
+            </string-array>
+            <string-array name="report_types">
+                <item>Ngày/Tháng/Năm</item>
+                <item>Tuần/Tháng/Năm</item>
+                <item>Tháng/Năm</item>
+            </string-array>
+            <string-array name="file_formats">
+                <item>Excel</item>
+                <item>PDF</item>
+            </string-array>
+        </resources>

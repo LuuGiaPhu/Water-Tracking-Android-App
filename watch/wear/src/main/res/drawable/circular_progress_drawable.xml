@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+                <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+                    <!-- Background Circle -->
+                    <item>
+                        <shape android:shape="oval">
+                            <solid android:color="#EEEEEE" />
+                        </shape>
+                    </item>
+
+                    <!-- Foreground Arc (Progress) -->
+                    <item>
+                        <clip>
+                            <shape android:shape="ring"
+                                android:innerRadiusRatio="3"
+                                android:thicknessRatio="8"
+                                android:useLevel="true">
+                                <solid android:color="#03A9F4" />
+                            </shape>
+                        </clip>
+                    </item>
+                </layer-list>
